@@ -11,154 +11,91 @@ export interface BlogPost {
 export const blogPosts: BlogPost[] = [
   {
     id: '1',
-    title: 'the new benches',
-    slug: 'the-new-benches',
-    date: 'Mar 31, 2025',
-    views: 498,
-    excerpt: 'Observations on design, public spaces, and the subtle ways our environment shapes our behavior.',
-    content: `# the new benches
+    title: 'forget mentors. find comrades.',
+    slug: 'forget-mentors-find-comrades',
+    date: 'Aug 24, 2025',
+    views: 0,
+    excerpt: 'stop searching for a mentor. start searching for your comrades.',
+    content: `# forget mentors. find comrades.
 
-There's something profound about the benches they installed in the park last month. Not just their sleek design or the way they curve slightly to cradle your back, but what they represent about intentional design.
+when i started my journey, i had one goal: connect with people ahead of me
 
-## The Details Matter
+i thought the key to success was to find a mentor who would hand me the secret map. i was wrong
 
-The old benches were functional—metal slats, sturdy construction, built to last. But these new ones tell a different story. The wood grain flows naturally, the armrests are positioned at just the right height, and there's a subtle indent where your phone might rest.
+mentors are great. but comrades in the trenches are 100x better
 
-Someone thought about how people actually use benches. Not just sitting, but the way we lean, the way we place our belongings, the way we orient ourselves toward or away from others.
+i’ve shifted my entire focus. i no longer prioritize finding people who have already made it. i prioritize finding people who are right where i am now. the other founders in the arena, covered in dust and sweat, fighting the same battles i am
 
-## Design as Communication
+here’s why this is so much more powerful
 
-Every design choice is a conversation with the user. The old benches said "sit here if you must." These new ones whisper "stay a while, be comfortable, notice the world around you."
+we get to share what’s working, right now
 
-It's the same principle I try to apply in digital design. Every pixel, every transition, every micro-interaction should feel intentional. Not because it's flashy, but because it serves the human on the other side of the screen.
+we learn from each other’s mistakes in real-time
 
-## The Ripple Effect
+we keep the fire alive when things get tough
 
-I've noticed people linger longer now. Conversations happen more naturally. The space feels more alive, more human.
+building a business is lonely, especially when you’re bootstrapping from india. your friends and family don't understand the obsession. the highs are high, and the lows are crushing. having people on the same rollercoaster makes all the difference. they get it. they don’t offer vague advice from a mountain top; they offer a hand up from the trench next to you
 
-That's the power of thoughtful design—it doesn't just solve problems, it creates possibilities.
-
-Sometimes the most profound changes come from the smallest details. A bench that understands how humans actually sit. A button that responds exactly as you'd expect. A search interface that anticipates what you're looking for.
-
-The new benches remind me why I fell in love with design in the first place. It's not about making things pretty—it's about making life a little bit better, one small interaction at a time.`
+stop searching for a mentor. start searching for your comrades`
   },
   {
     id: '2',
-    title: 'making of scira',
-    slug: 'making-of-scira',
-    date: 'Mar 21, 2025',
-    views: 1841,
-    excerpt: 'The journey of building an AI-powered search engine from scratch, lessons learned, and what comes next.',
-    content: `# making of scira
+    title: 'i ended up on a times square billboard. it was weird.',
+    slug: 'i-ended-up-on-a-times-square-billboard-it-was-weird',
+    date: 'Aug 10, 2025',
+    views: 0,
+    excerpt: 'the most rewarding experiences live on the other side of maximum discomfort.',
+    content: `# i ended up on a times square billboard. it was weird.
 
-Building scira.ai has been one of the most challenging and rewarding projects I've ever undertaken. What started as a simple idea—"what if search could be more conversational?"—evolved into something much more complex and meaningful.
+so, a thing happened. i made it to times square
 
-## The Beginning
+a picture of me, on a massive television, on the busiest street in the world . i had no idea it was happening
 
-The idea came to me during a late-night research session. I was jumping between multiple search engines, trying to piece together information about a complex topic. Each query returned fragments, and I found myself wishing for something that could understand context, remember what I'd already asked, and help me build understanding progressively.
+it all started with a hackathon hosted by @boltdotnew . i decided to participate and, for some reason, also decided to vlog my progress every single day
 
-That's when I realized: search shouldn't just find information—it should help you understand it.
+it was one of the most uncomfortable things i’ve ever done
 
-## Technical Challenges
+i felt cringe recording myself
 
-Building an AI-powered search engine is deceptively complex. It's not just about connecting to an LLM and calling it a day. You need:
+i felt stupid talking to a camera
 
-- Real-time web crawling and indexing
-- Intelligent query understanding
-- Context preservation across conversations
-- Source verification and citation
-- Performance optimization for sub-second responses
+i was editing videos late at night after my real agency work was done
 
-The architecture went through three major iterations before we found something that worked reliably at scale.
+it was a month of pure firefighting and feeling like an imposter. but i shipped the project. and then, a few weeks later, a friend sent me a photo. there i was, on a billboard in new york city, as a winner of the hackathon
 
-## The Minimalist Approach
+the lesson here isn’t "work hard and you’ll end up in times square". the lesson is that the most rewarding experiences often live on the other side of maximum discomfort. the thing you are avoiding, the cringe-worthy action, the task that makes you feel like an idiot—that’s usually the thing you need to do most
 
-From the beginning, I knew scira had to be minimal. Not because minimalism is trendy, but because search is fundamentally about focus. When you're looking for information, every unnecessary element is a distraction.
-
-The interface is intentionally sparse—just a search box and results. No ads, no clutter, no algorithmic manipulation. Just you and the information you're seeking.
-
-## Sponsorship and Growth
-
-Getting sponsored by Vercel and xAI was a turning point. Not just for the resources, but for the validation that we were building something valuable. It allowed us to focus on the product instead of worrying about infrastructure costs.
-
-The growth has been organic and steady. People discover scira, try it, and then share it with others who value thoughtful, distraction-free search.
-
-## What's Next
-
-We're working on features that will make scira even more useful:
-- Collaborative search sessions
-- Research project organization
-- Advanced citation and source management
-- API access for developers
-
-But the core philosophy remains unchanged: search should be about understanding, not just finding.
-
-## Lessons Learned
-
-Building scira taught me that the best products solve problems you personally experience. Every feature decision was informed by my own frustrations with existing search tools.
-
-It also reinforced my belief in the power of constraints. By limiting ourselves to essential features, we created something more focused and useful than if we'd tried to build everything at once.
-
-The journey continues, but I'm proud of what we've built so far. Scira represents everything I believe about good design: purposeful, minimal, and genuinely useful.`
+go do the uncomfortable thing. you have no idea where it might lead`
   },
   {
     id: '3',
-    title: 'begin.',
-    slug: 'begin',
-    date: 'Jan 16, 2025',
-    views: 667,
-    excerpt: 'Reflections on starting new projects, the courage to begin, and why the first step is always the hardest.',
-    content: `# begin.
+    title: 'growth is never linear',
+    slug: 'growth-is-never-linear',
+    date: 'Jul 22, 2025',
+    views: 0,
+    excerpt: 'growth is rarely linear; detach from outcomes and trust the process.',
+    content: `# growth is never linear
 
-The hardest part of any project isn't the complex technical challenges or the late-night debugging sessions. It's the moment before you start—when the blank canvas stares back at you, infinite with possibility and paralyzed by potential.
+growth is a liar. it seduces you with a steep, upward curve, then leaves you stranded on a plateau
 
-## The Weight of Potential
+i learned this the hard way with my youtube channel
 
-Every new project carries the weight of what it could become. The revolutionary app that changes how people work. The elegant solution to a problem millions face. The creative expression that resonates with exactly the right person at exactly the right moment.
+my first 1,000 subscribers took only 4 months
 
-But potential is also a burden. It whispers that you're not ready, that you need to plan more, research more, prepare more. It convinces you that starting now would be premature, that you should wait until you have all the answers.
+my next 500 subscribers took 6 months
 
-## The Courage to Begin
+it felt like a failure. i was putting in the same effort, but the results had fallen off a cliff. the algorithm had forsaken me. i was tempted to quit, to chase a new shiny object
 
-Beginning requires a specific kind of courage—not the courage to face known dangers, but the courage to step into uncertainty. To start building before you know exactly what you're building. To write the first line of code without knowing how the last line will look.
+this is the moment that kills most creators and founders. the slump. the long, boring middle where the initial excitement is gone and the finish line is nowhere in sight
 
-I've learned that this courage isn't something you find once and keep forever. It's something you have to summon fresh for each new beginning. Each project, each feature, each creative endeavor requires its own act of faith.
+but the slump is where the real work is done. it’s a reminder that you can’t control the outcome, you can only control the process. this is the lesson i had to internalize
 
-## The First Line
+detach from the results
 
-There's something magical about writing the first line of code for a new project. It transforms the abstract into the concrete, the possible into the actual. Suddenly, you're not just thinking about building something—you're building it.
+focus on making progress every day
 
-\`\`\`javascript
-// The beginning of everything
-const app = express();
-\`\`\`
+trust the process and just keep going
 
-That simple line has started countless applications, each one beginning with the same humble declaration of intent.
-
-## Embracing Imperfection
-
-The secret to beginning is accepting that your first attempt will be imperfect. The initial design will be flawed. The early code will be messy. The first draft will miss the mark.
-
-But imperfect action beats perfect inaction every time. You can iterate on something that exists. You can't iterate on something that's still just an idea.
-
-## The Compound Effect
-
-Every beginning compounds. The project you start today teaches you something that makes the next project better. The skill you develop while building one thing becomes the foundation for building the next.
-
-My journey with web development started with a simple HTML page. That led to learning CSS, then JavaScript, then frameworks, then backend development, then AI integration. Each beginning built on the last.
-
-## Start Where You Are
-
-You don't need the perfect idea, the perfect tools, or the perfect moment. You need to start where you are, with what you have, knowing what you know right now.
-
-The best time to plant a tree was 20 years ago. The second best time is now.
-
-## Begin Again
-
-Even this blog post started with a blank page and a blinking cursor. The act of beginning never gets easier, but it does get more familiar. You learn to trust the process, to have faith that starting will lead somewhere worth going.
-
-So here's to all the beginnings—the messy first drafts, the imperfect prototypes, the brave first steps into the unknown. They're not just the start of projects; they're the start of possibilities.
-
-Begin.`
+my business is the same. there are good days, good weeks, and then sudden drops where nothing seems to work . that's the game. growth is rarely linear. your job is to keep showing up, especially when the chart isn’t going up and to the right`
   }
 ];

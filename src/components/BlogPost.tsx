@@ -43,8 +43,6 @@ export const BlogPost: React.FC = () => {
           <h1 className="text-xl font-normal mb-2">{post.title}</h1>
           <div className="flex items-center text-sm text-gray-600 space-x-4">
             <span>{post.date}</span>
-            <span>•</span>
-            <span>{post.views} views</span>
           </div>
         </header>
 
