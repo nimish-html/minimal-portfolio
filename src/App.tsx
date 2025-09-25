@@ -114,7 +114,8 @@ function HomePage() {
         <section className="mb-12">
           <h2 className="text-sm mb-4 text-gray-700">colophon</h2>
           <p className="text-sm leading-6">
-            Built with Vite. Started as a project in Bolt, finished with Cursor. 100% vibe coded.
+            Built with Vite. Started as a project in Bolt, finished with Cursor. 100% vibe coded. This site is open sourced — see the code at{' '}
+            <a href="https://github.com/nimish-html/minimal-portfolio.git" className="underline hover:no-underline transition-all duration-150 hover:text-gray-900 hover:font-medium" target="_blank" rel="noreferrer">github.com/nimish-html/minimal-portfolio</a>.
           </p>
         </section>
 
