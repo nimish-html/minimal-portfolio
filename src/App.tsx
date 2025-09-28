@@ -2,6 +2,7 @@ import { Routes, Route, Link } from 'react-router-dom';
 import { BlogPost } from './components/BlogPost';
 import { ExperimentCard } from './components/ExperimentCard';
 import { HoverModal } from './components/HoverModal';
+import { RealtimeClock } from './components/RealtimeClock';
 import { blogPosts } from './data/blogPosts';
 
 function HomePage() {
@@ -21,7 +22,7 @@ function HomePage() {
             <div>
               <h1 className="text-lg font-normal mb-1">nimish gahlot</h1>
               <p className="text-sm text-gray-600">
-                delhi, in. <span className="text-gray-400 font-sans">(it's {new Date().toLocaleTimeString('en-US', { timeZone: 'Asia/Kolkata', hour: '2-digit', minute: '2-digit', hour12: true })} right now)</span> 
+                delhi, in. <RealtimeClock />
               </p>
             </div>
           </div>
