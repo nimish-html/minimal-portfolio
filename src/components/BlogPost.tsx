@@ -52,9 +52,14 @@ export const BlogPost: React.FC = () => {
             {post.content.split('\n\n').map((paragraph, index) => {
               // Handle headings
               if (paragraph.startsWith('# ')) {
+                const headingText = paragraph.replace('# ', '');
+                // Skip the first heading if it matches the post title to avoid duplication
+                if (index === 0 && headingText === post.title) {
+                  return null;
+                }
                 return (
                   <h1 key={index} className="text-lg font-normal mt-8 mb-4 first:mt-0">
-                    {paragraph.replace('# ', '')}
+                    {headingText}
                   </h1>
                 );
               }
