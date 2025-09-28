@@ -1,4 +1,4 @@
-import { Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import { BlogPost } from './components/BlogPost';
 import { ExperimentCard } from './components/ExperimentCard';
 import { HoverModal } from './components/HoverModal';
@@ -184,10 +184,12 @@ function HomePage() {
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<HomePage />} />
-      <Route path="/blog/:slug" element={<BlogPost />} />
-    </Routes>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/blog/:slug" element={<BlogPost />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

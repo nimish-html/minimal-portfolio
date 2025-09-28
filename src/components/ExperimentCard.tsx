@@ -7,6 +7,7 @@ interface ExperimentCardProps {
   year: string;
   previewImage: string;
   previewAlt: string;
+  url?: string;
   onClick?: () => void;
 }
 
@@ -16,6 +17,7 @@ export const ExperimentCard: React.FC<ExperimentCardProps> = ({
   year,
   previewImage,
   previewAlt,
+  url,
   onClick
 }) => {
   return (
@@ -26,8 +28,8 @@ export const ExperimentCard: React.FC<ExperimentCardProps> = ({
       description={description}
     >
       <div 
-        className="flex justify-between items-start cursor-pointer transition-all duration-150 hover:text-gray-900 hover:font-medium p-2 -m-2 rounded hover:bg-gray-100"
-        onClick={onClick}
+        className="flex justify-between items-start cursor-pointer transition-all duration-200 hover:text-gray-900 hover:font-medium p-3 -m-3 rounded-lg hover:bg-gray-100 hover:shadow-sm transform hover:scale-[1.01]"
+        onClick={url ? () => window.open(url, '_blank', 'noopener,noreferrer') : onClick}
       >
         <div>
           <h3 className="text-sm">{title}</h3>

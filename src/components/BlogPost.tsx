@@ -60,7 +60,7 @@ export const BlogPost: React.FC = () => {
               }
               if (paragraph.startsWith('## ')) {
                 return (
-                  <h2 key={index} className="text-base font-normal mt-6 mb-3 text-gray-700">
+                  <h2 key={index} className="text-base font-medium mt-6 mb-4 text-gray-900 tracking-wide">
                     {paragraph.replace('## ', '')}
                   </h2>
                 );
