@@ -53,8 +53,8 @@ function HomePage() {
             i graduated from iit bombay in 2021, since then i have been working closely with founders to scale their products.
           </p>
           <p className="text-sm leading-6">
-          last year, i took the leap of faith to start my own startup but realised that starting up as a non tech founder is a significant disadvantage.
-          so i started learning how to code in the last 9 mos, and currently i have my own app typesm.art and customers who even pay to use my code :)
+          last year, i took the leap of faith to start my own startup but realised that starting up as a non tech founder is a significant disadvantage.<br></br>
+          so i learnt how to code in the last 12 mos, and now i have my own app (typesm.art) and customers who pay to use my code :)
           </p>
         </section>
 
