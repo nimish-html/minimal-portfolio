@@ -31,7 +31,7 @@ function HomePage() {
         {/* About */}
         <section className="mb-12">
           <p className="mb-4 text-sm leading-6">
-            i'm a marketer who taught myself to code. <br></br> i spend all my time automating my tasks with agents. <br></br>
+            i'm a marketer who taught myself to code. <br></br> i spend all my time playing w/ llms, and building agents. <br></br>
             obsessed with the small details, and running long distances.
           </p>
           <p className="mb-4 text-sm leading-6">
@@ -68,14 +68,14 @@ function HomePage() {
             </span>
           </h2>
           <p className="mb-6 text-sm leading-6">
-            exploring the capabilties of frontier ai models
+            some explorations with ai
           </p>
           
           <div className="space-y-4">
 
           <ExperimentCard
               title="PerfectSync"
-              description="A tool that fixes audio errors of recorded videos. Built with React, Anthropic and ElevenLabs."
+              description="a tool that fixes audio errors of recorded videos. built with React, Anthropic and ElevenLabs."
               year="2025"
               previewImage="/perfect-sync.png"
               previewAlt="perfectsync interface"
@@ -85,7 +85,7 @@ function HomePage() {
 
             <ExperimentCard
               title="Bolt Hackathon Website"
-              description="My entry for the Bolt Hackathon Website contest. It was one of the runner ups. Built entirely in Bolt."
+              description="my entry for the Bolt's hackathon website contest. it was one of the runner ups. built entirely with Bolt and Cursor."
               year="2025"
               previewImage="/bolt-hackathon-lp.png"
               previewAlt="bolt hackathon website contest entry"
@@ -94,7 +94,7 @@ function HomePage() {
             
             <ExperimentCard
               title="SketchMind"
-              description="A tool that translates live group calls into visualisations like flow charts and mind maps. Built with React, OpenAI and MermaidJS."
+              description="a tool that translates live group calls into visualisations like flow charts and mind maps. built with React, OpenAI and MermaidJS."
               year="2025"
               previewImage="/sketchmind.png"
               previewAlt="sketchmind interface"
@@ -112,7 +112,7 @@ function HomePage() {
             </span>
           </h2>
           <p className="mb-6 text-sm leading-6">
-            i blog about things i'm learning, my experiences and thoughts on technology, and life.
+            i blog about things i'm learning, my experiences, my thoughts on technology, and life.
           </p>
           
           <div className="space-y-3">
